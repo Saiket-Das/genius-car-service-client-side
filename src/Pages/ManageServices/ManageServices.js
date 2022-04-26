@@ -7,7 +7,7 @@ const ManageServices = () => {
     const handleDelete = id => {
         const procceed = window.confirm("Are you sure?");
         if (procceed) {
-            const url = `http://localhost:5000/service/${id}`
+            const url = `https://gentle-earth-99524.herokuapp.com/service/${id}`
             fetch(url, {
                 method: 'DELETE',
 

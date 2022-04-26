@@ -6,7 +6,7 @@ const AddService = () => {
     const { register, handleSubmit } = useForm();
 
     const onSubmit = data => {
-        const url = 'http://localhost:5000/service';
+        const url = 'https://gentle-earth-99524.herokuapp.com/service';
         fetch(url, {
             method: 'POST',
             headers: {

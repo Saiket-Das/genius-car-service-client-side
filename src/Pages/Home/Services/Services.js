@@ -8,7 +8,7 @@ const Services = () => {
     const [services, setServices] = useServices([]);
 
     // useEffect(() => {
-    //     fetch('http://localhost:5000/service')
+    //     fetch('https://gentle-earth-99524.herokuapp.com/service')
     //         .then(res => res.json())
     //         .then(data => setServices(data));
     // }, [])
